@@ -25,17 +25,6 @@ We took raw RNA-Seq reads from 7 *Drosophila* samples (4 untreated, 3 *Pasilla*-
 
 ---
 
-## Tools Used
-
-| Step | Tool |
-|------|------|
-| Quality control | Falco + MultiQC + Cutadapt |
-| Mapping | HISAT2 (splice-aware, dm6 reference) |
-| Read counting | featureCounts |
-| Differential expression | DESeq2 |
-
----
-
 ## Results
 
 ### 1. Quality Control (MultiQC)
