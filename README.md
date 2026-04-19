@@ -147,6 +147,26 @@ Galaxy's JBrowse showing all 4 tracks side by side over the *Thd1* gene region:
 > The untreated sample (red) shows visibly higher coverage over *Thd1* exons compared to the treated sample (blue), consistent with *Thd1* being differentially expressed. The gene models (black exon blocks) at the bottom show the multiple transcript isoforms of *Thd1*.
 
 ---
+### 6. Functional Enrichment Analysis (GOseq)
+
+GOseq was run on the DE genes to identify over-represented biological functions,
+accounting for gene-length bias inherent in RNA-Seq data.
+
+![GOseq Results](screenshots/goseq_results.png)
+
+> The dot plot shows the top 10 over-represented GO categories across CC 
+> (Cellular Component), BP (Biological Process), and MF (Molecular Function) 
+> using the Wallenius method. Dot size = number of DE genes in that category, 
+> color = adjusted p-value (darker = more significant).
+
+Key enriched categories:
+- **Glycogen & glucan biosynthetic process** — highest % of DE genes (~80%),
+  suggesting metabolic reprogramming after *Pasilla* depletion
+- **Establishment of blood-brain barrier & septate junction assembly** — points
+  to structural/cellular organization changes
+- **Response to stress & oxidoreductase activity** — among the most significant
+  hits (darkest dots, adj p < 0.0005)
+- **Glutathione transferase activity** — implicates detoxification pathways
 
 ## How to Reproduce
 
