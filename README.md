@@ -9,7 +9,7 @@ The pipeline processes raw sequencing reads (**FASTQ**) through to biological in
 ---
 ## What We Did
 
-We took raw RNA-Seq reads from 7 *Drosophila* samples (4 untreated, 3 *Pasilla*-depleted) and ran them through a full pipeline: quality control → mapping → read counting → differential expression analysis.
+We took raw RNA-Seq reads from 7 *Drosophila* samples (4 untreated, 3 *Pasilla*-depleted) and ran them through a full pipeline: quality control → mapping → read counting → differential expression analysis → functional enrinchment of DE genes.
 
 **Samples used:**
 
