@@ -1,6 +1,4 @@
 # RNA-Seq-Reference-Based-Analysis-Workflow
-This repository documents a complete transcriptomics workflow to identify differentially expressed genes (DEGs) in Drosophila melanogaster following the depletion of the Pasilla (PS) gene.
-# RNA-Seq Reference-Based Transcriptomics: Pasilla Gene Knockdown
 ### Biological Insights into Splicing Regulation in *Drosophila melanogaster*
 
 ## 🧬 Project Background
