@@ -51,7 +51,7 @@ All 4 FASTQ files (subsampled) passed quality checks. Read length was **37 bp** 
 
 > The reverse reads of GSM461180 (treated sample) showed lower duplication and reduced quality at the 3' end — consistent with typical paired-end Illumina degradation.
 
-![MultiQC Report](screenshots/multiqc_report.png)
+![MultiQC Report](screenshots/multiqc_stats.png)
 
 ---
 
