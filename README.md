@@ -7,9 +7,9 @@ This project analyzes RNA-Seq data from *Drosophila melanogaster* cells to inves
 The pipeline processes raw sequencing reads (**FASTQ**) through to biological interpretation via **GO/KEGG Enrichment**.
 
 ---
-## What We Did
+## What I Did
 
-We took raw RNA-Seq reads from 7 *Drosophila* samples (4 untreated, 3 *Pasilla*-depleted) and ran them through a full pipeline: quality control → mapping → read counting → differential expression analysis → functional enrinchment of DE genes.
+I took raw RNA-Seq reads from 7 *Drosophila* samples (4 untreated, 3 *Pasilla*-depleted) and ran them through a full pipeline: quality control → mapping → read counting → differential expression analysis → functional enrinchment of DE genes.
 
 **Samples used:**
 
